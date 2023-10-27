@@ -9,6 +9,8 @@ so having a different template during manuscript preparation can make publishing
 The template is modularized as much as possible, with the `main.tex` tying it all together.
 This is done to facilitate swapping the contents onto a new template for submission,
 although sometimes journals require all LaTeX source to be in a single file.
+Similarly, I've tried keeping the amount of packages used by the template to a minimum,
+as this lessens the probability of conflics with journal submission templates.
 
 ## License
 
