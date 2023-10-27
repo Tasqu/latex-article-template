@@ -15,8 +15,7 @@ as this lessens the probability of conflics with journal submission templates.
 ## Use
 
 Just clone or download the template to start working with it in LaTeX locally.
-Alternatively, you can fork it and use e.g. Overleaf GitHub integration to import
-it to Overleaf directly.
+Alternatively, you can fork it and use e.g. Overleaf GitHub integration.
 
 **Remember to delete the `LICENSE` and `README` files when using the template for manuscript preparation!**
 You probably don't want your manuscript in the public domain 😉
