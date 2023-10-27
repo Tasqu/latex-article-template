@@ -9,3 +9,7 @@ so having a different template during manuscript preparation can make publishing
 The template is modularized as much as possible, with the `main.tex` tying it all together.
 This is done to facilitate swapping the contents onto a new template for submission,
 although sometimes journals require all LaTeX source to be in a single file.
+
+## License
+
+[CC0](https://creativecommons.org/publicdomain/zero/1.0/) public domain, see `LICENSE` for more information.
