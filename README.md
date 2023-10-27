@@ -9,6 +9,17 @@ so having a different template during manuscript preparation can make publishing
 The template is modularized as much as possible, with the `main.tex` tying it all together.
 This is done to facilitate swapping the contents onto a new template for submission,
 although sometimes journals require all LaTeX source to be in a single file.
+Similarly, I've tried keeping the amount of packages used by the template to a minimum,
+as this lessens the probability of conflics with journal submission templates.
+
+## Use
+
+Just clone or download the template to start working with it in LaTeX locally.
+Alternatively, you can fork it and use e.g. Overleaf GitHub integration.
+
+**Remember to delete the `LICENSE` and `README` files when using the template for manuscript preparation!**
+You probably don't want your manuscript in the public domain 😉
+
 
 ## License
 
