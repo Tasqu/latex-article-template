@@ -1,0 +1,59 @@
+%% Document and package definitions
+% Try to keep these to a minimum to avoid potential conflicts
+% with journal templates.
+
+\documentclass{article}
+\usepackage{graphicx, amsmath, url}
+
+
+%% Document metadata and begin document
+% This information is often presented very differently
+% in different journals.
+
+\title{MANUSCRIPT TITLE HERE}
+\author{
+    John Doe\thanks{Corresponding author: john.doe@email.com} \thanks{Affiliation, address, country},
+    Jane Doe\thanks{Affiliation, address, country}
+}
+\date{\today}
+
+\begin{document}
+
+
+%% Frontmatter: Title, abstract, keywords
+
+\maketitle
+
+\includegraphics[width=\linewidth]{figs/graphical_abstract.pdf}
+
+\input{tex/highlights}
+
+\clearpage
+
+\begin{abstract}
+    \input{tex/abstract}
+\end{abstract}
+\input{tex/keywords}
+
+
+%% Main body text contained in the `\tex` subfolder.
+
+\input{tex/introduction}
+\input{tex/materials_and_methods}
+\input{tex/results}
+\input{tex/discussion}
+\input{tex/conclusions}
+
+\appendix
+\input{tex/appendices}
+
+
+%% Bibliography from `references.bib`
+
+\bibliographystyle{unsrt}
+\bibliography{references}
+
+
+%% End document
+
+\end{document}
