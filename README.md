@@ -24,3 +24,9 @@ You probably don't want your manuscript in the public domain 😉
 ## License
 
 [CC0](https://creativecommons.org/publicdomain/zero/1.0/) public domain, see `LICENSE` for more information.
+
+
+## Acknowledgements
+
+**Tiede ja Teksti: Tehoa ja taitoa tutkielman kirjoittamiseen.** / Kniivilä, Sonja; Lindblom-Ylänne, Sari; Mäntynen, Anne.
+3., uudistettu painos toim. Helsinki: Gaudeamus, 2017. 250 s.
