@@ -1,4 +1,4 @@
-%% Document and package definitions
+%% Document and package definitions %%
 % Try to keep these to a minimum to avoid potential conflicts
 % with journal templates.
 
@@ -6,11 +6,15 @@
 \usepackage{graphicx, amsmath}
 
 
-%% Document metadata and begin document
+%% Document metadata and begin document %%
 % This information is often presented very differently
 % in different journals.
 
 \title{MANUSCRIPT TITLE HERE}
+% Quite common to use a main-sub-title structure.
+% Should summarize the `Field/Topic', `Scope/Subject', and `Method'.
+% "As concise as possible, as detailed as necessary".
+
 \author{
     John Doe\thanks{Corresponding author: john.doe@email.com} \thanks{Affiliation, address, country},
     Jane Doe\thanks{Affiliation, address, country}
@@ -20,7 +24,7 @@
 \begin{document}
 
 
-%% Frontmatter: Title, abstract, keywords
+%% Frontmatter: Title, abstract, keywords %%
 
 \maketitle
 
@@ -36,7 +40,7 @@
 \input{tex/keywords}
 
 
-%% Main body text contained in the `\tex` subfolder.
+%% Main body text contained in the `\tex` subfolder. %%
 
 \input{tex/introduction}
 \input{tex/materials_and_methods}
@@ -48,7 +52,7 @@
 \input{tex/appendices}
 
 
-%% Bibliography from `references.bib`
+%% Bibliography from `references.bib` %%
 
 \bibliographystyle{unsrt}
 \bibliography{references}
