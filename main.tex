@@ -1,8 +1,12 @@
 %% Document and package definitions %%
 % Try to keep these to a minimum to avoid potential conflicts with journal templates.
 
-\documentclass{article}
-\usepackage{graphicx, amsmath}
+\documentclass[]{article}
+\usepackage{graphicx}
+
+% Bibliography configuration with BibLaTeX
+\usepackage[]{biblatex}
+\addbibresource{references.bib}
 
 
 %% Document metadata and begin document %%
@@ -54,8 +58,7 @@
 
 %% Bibliography from `references.bib` %%
 
-\bibliographystyle{unsrt}
-\bibliography{references}
+\printbibliography
 
 
 %% End document

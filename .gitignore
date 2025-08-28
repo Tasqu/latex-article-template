@@ -8,3 +8,6 @@
 *.log
 *.out
 *.toc
+*.bbl-SAVE-ERROR
+*.bcf
+*.run.xml
