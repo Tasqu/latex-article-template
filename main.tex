@@ -1,15 +1,24 @@
-%% Document and package definitions %%
+%% Document and package definitions
 % Try to keep these to a minimum to avoid potential conflicts with journal templates.
 
 \documentclass[]{article}
-\usepackage{graphicx}
+\usepackage{graphicx} % Required for figures.
 
 % Bibliography configuration with BibLaTeX
 \usepackage[]{biblatex}
 \addbibresource{references.bib}
 
 
-%% Document metadata and begin document %%
+%% Declare comment/revision highlights for convenience.
+% Optional definitions, can be removed if desired (along with examples in `introduction.tex`).
+% To hide the highlights, change the to `\textcolor{black}`.
+
+\usepackage{xcolor} % Required for coloured highlights.
+\newcommand{\reva}[1]{\textcolor{red}{#1}} % Define highlight color for reviewer 1
+\newcommand{\revb}[1]{\textcolor{blue}{#1}} % Define highlight color for reviewer 2
+
+
+%% Document metadata and begin document
 % This information is often presented very differently
 % in different journals.
 
@@ -28,7 +37,7 @@
 \begin{document}
 
 
-%% Frontmatter: Title, abstract, keywords %%
+%% Frontmatter: Title, abstract, keywords
 
 \maketitle
 
@@ -44,7 +53,7 @@
 \input{tex/keywords}
 
 
-%% Main body text contained in the `\tex` subfolder. %%
+%% Main body text contained in the `\tex` subfolder.
 
 \input{tex/introduction}
 \input{tex/materials_and_methods}
@@ -56,7 +65,7 @@
 \input{tex/appendices}
 
 
-%% Bibliography from `references.bib` %%
+%% Bibliography from `references.bib`
 
 \printbibliography
 
