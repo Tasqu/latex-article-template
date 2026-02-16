@@ -33,7 +33,7 @@ You probably don't want your manuscript in the public domain 😉
 To produce the final manuscript, simply compile `main.tex` with LaTeX.
 This template has been designed for `pdflatex`,
 but it might work with other engines as well.
-The BibTeX citations might require more complicated compilation, though.
+The BibTeX citations might require multiple compilation steps, though.
 Both the [LaTeX Wikibook](https://en.wikibooks.org/wiki/LaTeX)
 and [Overleaf help](https://www.overleaf.com/learn)
 are great resources to help with general LaTeX issues.
