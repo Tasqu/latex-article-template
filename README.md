@@ -1,6 +1,6 @@
 # latex-article-template
 
-A simple LaTeX article template.
+A simple [LaTeX](https://www.latex-project.org/) article template.
 
 This template is intended to be used for preparing drafts of manuscripts for journal submissions,
 and contains typical common elements found in final journal templates.
@@ -14,13 +14,29 @@ Similarly, I've tried keeping the amount of packages used by the template to a m
 as this lessens the probability of conflicts with journal submission templates.
 
 
+## Key contents
+
+1. `figs/` contains the figures used in the manuscript.
+2. `tex/` contains the manuscript body text as `.tex` files.
+3. `main.tex` is the main LaTeX file to compile the manuscript.
+4. `references.bib` is the [BibTeX](https://www.bibtex.org/) bibliography file for the manuscript.
+
+
 ## Use
 
 Just clone or download the template to start working with it in LaTeX locally.
-Alternatively, you can fork it and use e.g. Overleaf GitHub integration.
+Alternatively, you can fork it and use e.g. [Overleaf](https://www.overleaf.com/) GitHub integration.
 
-**Remember to delete the `LICENSE` and `README` files when using the template for manuscript preparation!**
+**Remember to delete/change the `LICENSE` (and `README`) files when using the template for manuscript preparation!**
 You probably don't want your manuscript in the public domain 😉
+
+To produce the final manuscript, simply compile `main.tex` with LaTeX.
+This template has been designed for `pdflatex`,
+but it might work with other engines as well.
+The BibTeX citations might require more complicated compilation, though.
+Both the [LaTeX Wikibook](https://en.wikibooks.org/wiki/LaTeX)
+and [Overleaf help](https://www.overleaf.com/learn)
+are great resources to help with general LaTeX issues.
 
 
 ### Revisions and review
